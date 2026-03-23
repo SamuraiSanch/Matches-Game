@@ -27,8 +27,8 @@ The computer's moves are powered by a random number generator (`std::mt19937`), 
 
 ### Compilation (GCC/Clang):
 ```bash
-g++ -std=c++11 main.cpp -o matches_game
-./matches_game
+g++ -std=c++11 100-matches-game.cpp -o 100-matches-game
+./100-matches-game
 ```
 
 ### Compilation (Visual Studio):
@@ -38,7 +38,7 @@ g++ -std=c++11 main.cpp -o matches_game
 ## 📂 Project Structure
 ```
 100-matches-game/
-└── main.cpp    # Full game logic
+└── 100-matches-game.cpp    # Full game logic
 ```
 
 ## 📋 Example Usage
